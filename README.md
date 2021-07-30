@@ -16,7 +16,8 @@ I wrote them on the clock but there is nothing about them that is propriety.
 
 If nothing else, they can show how to do System V semaphores from C and Python.
 
-There are other Python semaphore interfaces out there but this did exactly what I wanted, no more.
+There are other Python semaphore interfaces out there but they all come with all kinds of
+complexity. I don't want complexity, I just want System V semop.
 
 
 Regards,
