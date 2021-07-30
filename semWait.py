@@ -52,6 +52,8 @@ verbose=3
 permanent=False
 ignoreSemError=False
 
+# While I don't much care for these complicated structures
+# these appear to be what is needed to access the libc version of the sem operations
 class struct_ipc_perm(ctypes.Structure):
     _fields_ = [
         ('key',        ctypes.c_int32),   # Key supplied to semget
