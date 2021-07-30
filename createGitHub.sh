@@ -1,3 +1,7 @@
+# Fri Jul 30 12:09:10 EDT 2021
+# these were the instructions github gave when first creating something.  
+# I'm keeping them around for now.
+
 echo "# semWait" >> README.md
 git init
 git add README.md
